@@ -1,0 +1,10 @@
+.smurfs-wallpaper {
+    background-image: url("../../images/smurfs-wallpaper.jpg");
+    background-color: #344b9b;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 25%;
+}
