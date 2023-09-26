@@ -13,7 +13,7 @@ main {
 
 .btn {
     display: block;
-    width: 300px;
+    width: 350px;
     padding: 10px;
 
     font-family: "Mogra", sans-serif;
@@ -23,7 +23,6 @@ main {
     text-decoration: none;
 
     margin: 0;
-    margin-top: 250px;
 }
 
 .green-btn {
@@ -50,4 +49,18 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.btn-icon {
+    margin: 0;
+    margin-left: 10px;
+}
+
+
+#start {
+    margin-top: 250px;
+}
+
+#replay-btn {
+    margin-top: 25px;
 }
