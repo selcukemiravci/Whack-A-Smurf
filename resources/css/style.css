@@ -56,6 +56,39 @@ main {
     margin-left: 10px;
 }
 
+.fit-content {
+    width: fit-content;
+}
+
+.mole-hole {
+    width: 300px;
+}
+
+.mole-hole-top {
+    width: 300px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.top-left {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.top-right {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
 
 #start {
     margin-top: 250px;
@@ -64,3 +97,8 @@ main {
 #replay-btn {
     margin-top: 25px;
 }
+
+#holes {
+    margin-left: 100px;
+}
+
