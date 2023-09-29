@@ -64,11 +64,17 @@ main {
     width: 300px;
 }
 
+.mole-hole-middle {
+    width: 100px;
+    position: absolute;
+    top: -30%;
+    left: 35%;
+}
+
 .mole-hole-top {
     width: 300px;
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 0;
 }
 
 .bottom-left {
@@ -89,6 +95,10 @@ main {
     right: 30px;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 
 #start {
     margin-top: 250px;
@@ -100,5 +110,6 @@ main {
 
 #holes {
     margin-left: 100px;
+    width: fit-content;
 }
 
