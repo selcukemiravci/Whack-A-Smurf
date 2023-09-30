@@ -1,7 +1,7 @@
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 300px);
-  /* 3 columns with equal width */
+  grid-template-columns: repeat(4, 300px);
+  /* 4 columns with equal width */
   gap: 10px;
   /* Gap between grid items */
   padding: 20px;
