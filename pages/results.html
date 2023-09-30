@@ -24,9 +24,17 @@
       <div class="center">
         <div class="btn green-btn">
           <h3>Score:</h3>
-          <p id="final-score">0</p>
+          <p id="final-score"></p>
+          <script>
+            const queryString = window.location.search;
+
+            const urlParams = new URLSearchParams(queryString);
+
+            score = urlParams.get("score");
+            document.getElementById("final-score").innerHTML = score;
+          </script>
         </div>
-        <a id="replay-btn" href="#" class="btn green-btn grow"
+        <a id="replay-btn" href="../index.html" class="btn green-btn grow"
           >Replay<i class="fa fa-repeat btn-icon"></i>
         </a>
       </div>
@@ -37,6 +45,5 @@
       src="https://kit.fontawesome.com/161a003de7.js"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js"></script>
   </body>
 </html>
