@@ -16,6 +16,7 @@
             href="https://fonts.googleapis.com/css?family=Mogra" />
 
         <title>Whack-A-Smurf</title>
+
     </head>
     <body class="smurf-village-wallpaper">
         <header></header>
@@ -26,6 +27,24 @@
             </div>
             <div id="holes" class="grid-container bottom-left">
                 <div class="grid-item fit-content">
+                    <div class="hole">
+                        <button id="smurf1" class="btn smurf">
+                            <img src="../resources/images/smurf.png" alt="Your Image" style="width: 200px; height: 200px;">
+                        </button>
+                        <img
+                            src="../resources/images/mole-hole.png"
+                            alt="mole hole"
+                            class="mole-hole" />
+                        <img
+                            src="../resources/images/mole-hole-top.png"
+                            alt="mole hole top"
+                            class="mole-hole-top" />
+                    </div>
+                </div>
+                <div class="grid-item fit-content hole">
+                    <button id="smurf2" class="btn smurf">
+                        <img src="../resources/images/smurf.png" alt="Your Image" style="width: 200px; height: 200px;">
+                    </button>
                     <img
                         src="../resources/images/mole-hole.png"
                         alt="mole hole"
@@ -35,7 +54,10 @@
                         alt="mole hole top"
                         class="mole-hole-top" />
                 </div>
-                <div class="grid-item fit-content">
+                <div class="grid-item fit-content hole">
+                    <button id="smurf3" class="btn smurf">
+                        <img src="../resources/images/smurf.png" alt="Your Image" style="width: 200px; height: 200px;">
+                    </button>
                     <img
                         src="../resources/images/mole-hole.png"
                         alt="mole hole"
@@ -45,7 +67,10 @@
                         alt="mole hole top"
                         class="mole-hole-top" />
                 </div>
-                <div class="grid-item fit-content">
+                <div class="grid-item fit-content hole">
+                    <button id="smurf4" class="btn smurf">
+                        <img src="../resources/images/smurf.png" alt="Your Image" style="width: 200px; height: 200px;">
+                    </button>
                     <img
                         src="../resources/images/mole-hole.png"
                         alt="mole hole"
@@ -55,7 +80,10 @@
                         alt="mole hole top"
                         class="mole-hole-top" />
                 </div>
-                <div class="grid-item fit-content">
+                <div class="grid-item fit-content hole">
+                    <button id="smurf5" class="btn smurf">
+                        <img src="../resources/images/smurf.png" alt="Your Image" style="width: 200px; height: 200px;">
+                    </button>
                     <img
                         src="../resources/images/mole-hole.png"
                         alt="mole hole"
@@ -65,17 +93,10 @@
                         alt="mole hole top"
                         class="mole-hole-top" />
                 </div>
-                <div class="grid-item fit-content">
-                    <img
-                        src="../resources/images/mole-hole.png"
-                        alt="mole hole"
-                        class="mole-hole" />
-                    <img
-                        src="../resources/images/mole-hole-top.png"
-                        alt="mole hole top"
-                        class="mole-hole-top" />
-                </div>
-                <div class="grid-item fit-content">
+                <div class="grid-item fit-content hole">
+                    <button id="smurf6" class="btn smurf">
+                        <img src="../resources/images/smurf.png" alt="Your Image" style="width: 200px; height: 200px;">
+                    </button>
                     <img
                         src="../resources/images/mole-hole.png"
                         alt="mole hole"
@@ -90,5 +111,20 @@
         <footer></footer>
 
         <script src="script.js"></script>
+        <style>
+            .smurf {
+                padding: 0;
+                cursor: pointer;
+                border: none;
+                background: transparent;
+                position: relative;
+                width: fit-content;
+                height: fit-content;
+                top: -100px;
+                left: 100px;
+                z-index: 1;
+            }
+
+        </style>
     </body>
 </html>
