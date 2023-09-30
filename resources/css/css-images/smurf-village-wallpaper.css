@@ -1,9 +1,9 @@
 .smurf-village-wallpaper {
-    background-image: url("../../images/smurf-village-wallpaper.jpeg");
-    background-color: #344b9b;
+  background-image: url("../../images/smurf-village-wallpaper.jpeg");
+  background-color: #344b9b;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }

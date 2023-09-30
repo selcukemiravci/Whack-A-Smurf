@@ -1,115 +1,113 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    min-height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100%;
 }
 
 main {
-    padding: 25px;
+  padding: 25px;
 }
 
 .btn {
-    display: block;
-    width: 350px;
-    padding: 10px;
+  display: block;
+  width: 350px;
+  padding: 10px;
 
-    font-family: "Mogra", sans-serif;
-    font-size: 3em;
-    letter-spacing: 5px;
-    text-align: center;
-    text-decoration: none;
+  font-family: "Mogra", sans-serif;
+  font-size: 3em;
+  letter-spacing: 5px;
+  text-align: center;
+  text-decoration: none;
 
-    margin: 0;
+  margin: 0;
 }
 
 .green-btn {
-    background: #0F5917;
-    border: 10px solid #004B08;
-    border-radius: 25px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    font-weight: bold;
-    color: white;
+  background: #0f5917;
+  border: 10px solid #004b08;
+  border-radius: 25px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-weight: bold;
+  color: white;
 }
 
 /* Animate
  * Component grows in size on hover. */
 .grow {
-    transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .grow:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .btn-icon {
-    margin: 0;
-    margin-left: 10px;
+  margin: 0;
+  margin-left: 10px;
 }
 
 .fit-content {
-    width: fit-content;
+  width: fit-content;
 }
 
 .mole-hole {
-    width: 300px;
+  width: 300px;
 }
 
 .mole-hole-middle {
-    width: 100px;
-    position: absolute;
-    top: -30%;
-    left: 35%;
+  width: 100px;
+  position: absolute;
+  top: -30%;
+  left: 35%;
 }
 
 .mole-hole-top {
-    width: 300px;
-    position: absolute;
-    top: 0;
+  width: 300px;
+  position: absolute;
+  top: 0;
 }
 
 .bottom-left {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .top-left {
-    position: absolute;
-    top: 30px;
-    left: 30px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
 }
 
 .top-right {
-    position: absolute;
-    top: 30px;
-    right: 30px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
 }
 
 .hidden {
-    visibility: hidden;
+  visibility: hidden;
 }
 
-
 #start {
-    margin-top: 250px;
+  margin-top: 250px;
 }
 
 #replay-btn {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 #holes {
-    margin-left: 100px;
-    width: fit-content;
+  margin-left: 100px;
+  width: fit-content;
 }
-
