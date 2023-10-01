@@ -15,7 +15,7 @@ Dive into a nostalgic game experience with a twist, brought to you by the studen
 
 Rediscover the joy of classic arcade games with Whack-A-Smurf! This interactive game experience combines traditional gameplay mechanics with modern graphics and audio to deliver a user-friendly experience.
 
-![Whack-A-Smurf Gameplay](https://selcukemiravci.github.io/Whack-A-Smurf/)
+![Whack-A-Smurf Gameplay](https://github.com/selcukemiravci/Whack-A-Smurf/assets/53044008/9cfbecac-2f79-4d58-8d53-35190340ff68)
 
 <a name="gameplay-mechanics"></a>
 ## 📖 Gameplay Mechanics
