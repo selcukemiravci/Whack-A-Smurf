@@ -21,6 +21,17 @@
   </head>
   <body class="smurf-village-wallpaper">
     <header></header>
+    <audio id="gameAudio" autoplay loop>
+      <source src="../resources/audio/game.mp3" type="audio/mpeg">
+    </audio>
+    
+    <audio id="smurfsAudio">
+        <source src="../resources/audio/smurf.mp3" type="audio/mpeg">
+    </audio>
+    
+    <audio id="azraelAudio">
+        <source src="../resources/audio/azrael.mp3" type="audio/mpeg">
+    </audio>
     <main>
       <div>
         <p id="time" class="btn green-btn top-left"></p>
@@ -60,7 +71,6 @@
             class="mole-hole"
           />
           <img
-            id="hole1"
             src="../resources/images/smurf.png"
             data-type="smurf"
             alt="mole hole character"
@@ -135,7 +145,16 @@
       </div>
     </main>
     <footer></footer>
+  <script src="../resources/js/script.js"></script>
 
-    <script src="../resources/js/script.js"></script>
+  <script>
+    // Adjust the background game audio volume
+    document.getElementById("gameAudio").volume = 0.3; // Adjust as necessary.
+
+    // Adjust the smurfs and azrael click sounds
+    document.getElementById("smurfsAudio").volume = 1.0; // This is already the maximum but you can adjust if needed.
+    document.getElementById("azraelAudio").volume = 1.0; // Similarly, adjust if needed.
+  </script>
+
   </body>
 </html>

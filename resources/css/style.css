@@ -69,6 +69,7 @@ main {
   position: absolute;
   top: -30%;
   left: 35%;
+  visibility: hidden;  /* Ensure characters start as hidden */
 }
 
 .mole-hole-top {
